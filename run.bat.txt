@@ -1,0 +1,3 @@
+pytest -v -s  --html=Reprots\reports.html  TestCases/Login_Test_DDT.py --browser chrome
+REM pytest -v -s -m "regression" --html=./Reprots/reports.html TestCases/ --browser chrome
+REM pytest -v -s -m "regression" --html=Reprots\reports.html TestCases/ --browser chrome  
